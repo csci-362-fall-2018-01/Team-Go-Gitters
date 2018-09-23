@@ -1,1 +1,1 @@
-# Team-Go-Getters
+# Team-Go-Gitters
