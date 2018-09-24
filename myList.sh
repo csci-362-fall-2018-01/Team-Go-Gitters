@@ -9,6 +9,9 @@
 #Another possible way to do this with a loop is as follows (requires name of directory):
 #clear the .html file
 > outlist.html
+#get the parent file path
+file=$(readlink -f "$0")
+filepath=$(dirname "$file")
 #iterate through the directory
 for file in *; do
 	echo $file >> outlist.html;
