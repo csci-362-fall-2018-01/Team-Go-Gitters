@@ -13,7 +13,7 @@
 file=$(readlink -f "$0")
 filepath=$(dirname "$file")
 #iterate through the directory
-for file in *; do
-	echo $file >> outlist.html;
+for file in $filepath/*; do
+	echo $(basename $file) >> outlist.html;
   echo "<br/>" >> outlist.html;
 	done
