@@ -44,6 +44,9 @@ sudo apt-get install libtool-bin
 
 (Ex: sudo ./configure --with-lua=/home/usr/Downloads/lua-5.3.5 --with-gtk)
 
+10) run - sudo make
+	  sudo make install
+
 
 
 
