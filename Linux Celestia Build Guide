@@ -22,6 +22,8 @@ gtkglext - sudo apt-get install libgtkglext1-dev
 	download readline dependency - sudo apt-get install libreadline-dev
 	run - "make Linux" while in Lua directory (Ex: Home/Downloads/Lua5.3.5)
 	run- "make Linux install" 
+	
+	run - sudo apt-get install liblua5.1-0-dev liblua50-dev liblua50-dev liblualib50-dev
 
 
 6) Install autoconf/libtool
