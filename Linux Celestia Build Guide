@@ -1,0 +1,48 @@
+1) Download Ubuntu Source code
+
+2)Gather Libraries
+	
+OpenGL-GLUT-Mesa3.4 - sudo apt-get install freeglut3-dev
+
+Libjpeg - sudo apt-get install libjpeg-dev
+
+Libjpng - sudo apt-get install libpng-dev
+
+3) Install linux libraries
+
+Build-Essential - sudo apt-get install build-essential
+
+auto-make - sudo apt-get install automake
+
+4) Install GTK libraries
+
+gtkglext - sudo apt-get install libgtkglext1-dev
+
+5) Download LUA 5.3 source code
+	download readline dependency - sudo apt-get install libreadline-dev
+	run - "make Linux" while in Lua directory (Ex: Home/Downloads/Lua5.3.5)
+	run- "make Linux install" 
+
+
+6) Install autoconf/libtool
+sudo apt-get update
+sudo apt-get install autoconf
+
+sudo apt-get install libtool-bin
+
+
+7) run - autoreconf -v -i   (not sure why)
+
+
+8) run - ./configure --with-gtk
+	(should return with "celestia configuration complete" once completed)	
+
+
+9) run ./configure --with-lua=/path/to/lua --with-gtk 
+
+(Ex: sudo ./configure --with-lua=/home/usr/Downloads/lua-5.3.5 --with-gtk)
+
+
+
+
+
