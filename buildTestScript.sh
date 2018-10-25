@@ -5,12 +5,19 @@
 
 
 #Navigative to the file path of Celestia-main in a terminal window
-
+#To run: run the command sh buildTestScript.sh 
 #!/bin/bash
 chmod +x buildTestScript.sh
 
+#
 #Edit this line to include file path for Celestia-main
+#
+
 export PATH=$PATH:<Path to Celestia Main>
+
+#
+#Stop editing
+#
 
 sudo apt-get install freeglut3-dev libjpeg-dev libpng-dev build-essential automake libgtkglext1-dev libredline-dev liblua5.1-0-dev liblua50-dev liblua50-dev liblualib50-dev
 
