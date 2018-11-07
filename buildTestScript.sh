@@ -21,9 +21,14 @@ autoreconf -v -i
 
 sudo ./configure --with-lua=windows/inc/lua --with-gtk
 
+
+FILE=$1
+if [ -f Makefile ]; then
+   echo 0
+else
+   echo 1
+
 sudo make -j4
+
+
 sudo make install
-
-
-
-
