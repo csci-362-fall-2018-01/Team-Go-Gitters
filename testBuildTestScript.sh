@@ -13,29 +13,27 @@ chmod +x buildTestScript.sh
 #Edit this line to include file path for Celestia-main
 #
 
-export PATH=$PATH:<Path to Celestia Main>
+export PATH=$PATH:~/Desktop/Celestia/Celestia
 
 #
 #Stop editing
 #
-
-sudo apt-get install freeglut3-dev libjpeg-dev libpng-dev build-essential automake libgtkglext1-dev libredline-dev liblua5.1-0-dev liblua50-dev liblua50-dev liblualib50-dev
-
+echo "Test 1: Starting" >> testlog.txt
+sudo apt-get install freeglut3-dev libjpeg-dev libpng-dev build-essential automake libgtkglext1-dev libreadline-dev liblua5.1-0-dev liblua50-dev liblua50-dev liblualib50-dev
+echo "$(date) :All packages successfully installed or already found in system." >> testlog.txt
 sudo apt-get update
 sudo apt-get install autoconf libtool-bin
-
+cd ~/Desktop/Celestia/Celestia
 autoreconf -v -i
 
 sudo ./configure --with-lua=windows/inc/lua --with-gtk
 
-
-FILE=$1
-if [ -f Makefile ]; then
+FILE="Makefile"
+if [ -f "$FILE" ]; then
    echo 0
 else
-   echo 1
-
+   echo "Makefile found" >> testlog.txt
+fi
 sudo make -j4
-
-
 sudo make install
+echo "Test 1: Finished" >> testlog.txt
