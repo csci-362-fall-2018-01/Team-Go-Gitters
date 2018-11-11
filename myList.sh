@@ -13,7 +13,6 @@
 file=$(readlink -f "$0")
 #get the parent file path
 filepath=$(dirname "$file")
-echo "$file"
 #iterate through the directory
 for file in $filepath/*; do
 	echo $(basename "$file") >> outlist.html;
