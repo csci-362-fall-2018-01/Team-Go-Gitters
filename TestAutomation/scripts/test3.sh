@@ -6,9 +6,9 @@ echo "$(date) Test 3: Starting" >> $filepath/temp/test3log.txt
 
 cd ~/Desktop/Celestia/Celestia
 
-sudo make -j4
+#sudo make -j4
 
-sudo make install
+#sudo make install
 
 FILE="celestia"
 if [ -f "$FILE" ]; then

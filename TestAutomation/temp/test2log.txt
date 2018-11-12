@@ -1,10 +1,3 @@
-Sun Nov 11 18:26:50 EST 2018 Test 2: Starting
+Mon Nov 12 10:01:33 EST 2018 Test 2: Starting
 Makefile Found
-Sun Nov 11 18:42:39 EST 2018 Test 2: Starting
-Makefile Found
-Sun Nov 11 18:47:40 EST 2018 Test 2: Starting
-Makefile Found
-Sun Nov 11 18:47:57 EST 2018 Test 2: Finished
-Sun Nov 11 18:55:47 EST 2018 Test 2: Starting
-Makefile Found
-Sun Nov 11 18:56:04 EST 2018 Test 2: Finished
+Mon Nov 12 10:01:50 EST 2018 Test 2: Finished
