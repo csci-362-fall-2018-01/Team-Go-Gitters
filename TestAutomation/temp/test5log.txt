@@ -1,0 +1,3 @@
+Mon Nov 12 14:16:14 EST 2018 Test 5: Starting
+Python script successfully executed
+Mon Nov 12 14:16:14 EST 2018 Test 5: Finished

@@ -8,4 +8,5 @@ sudo apt-get install freeglut3-dev libjpeg-dev libpng-dev build-essential automa
 sudo apt-get update
 sudo apt-get install autoconf libtool-bin
 echo "$(date): All packages successfully installed or already found in system." >> temp/test1log.txt
-echo "$(date) Test 1: Finished" >> temp/test1log.txt
+
+echo "$(date) Test 1: Finished $(\n)" >> temp/test1log.txt

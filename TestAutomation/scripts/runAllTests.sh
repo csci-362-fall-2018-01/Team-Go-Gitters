@@ -18,42 +18,52 @@ sh ./scripts/test4.sh
 
 sh ./scripts/test5.sh
 
-sh ./scripts/test6.sh
+# sh ./scripts/test6.sh
 
-sh ./scripts/test7.sh
+# sh ./scripts/test7.sh
 
-sh ./scripts/test8.sh
+# sh ./scripts/test8.sh
 
-sh ./scripts/test9.sh
+# sh ./scripts/test9.sh
 
-sh ./scripts/test10.sh
+# sh ./scripts/test10.sh
 
-sh ./scripts/test11.sh
+# sh ./scripts/test11.sh
 
-sh ./scripts/test12.sh
+# sh ./scripts/test12.sh
 
-sh ./scripts/test13.sh
+# sh ./scripts/test13.sh
 
-sh ./scripts/test14.sh
+# sh ./scripts/test14.sh
 
-sh ./scripts/test15.sh
+# sh ./scripts/test15.sh
 
-sh ./scripts/test16.sh
+# sh ./scripts/test16.sh
 
-sh ./scripts/test17.sh
+# sh ./scripts/test17.sh
 
-sh ./scripts/test18.sh
+# sh ./scripts/test18.sh
 
-sh ./scripts/test19.sh
+# sh ./scripts/test19.sh
 
-sh ./scripts/test20.sh
+# sh ./scripts/test20.sh
 
-sh ./scripts/test21.sh
+# sh ./scripts/test21.sh
 
-sh ./scripts/test22.sh
+# sh ./scripts/test22.sh
 
-sh ./scripts/test23.sh
+# sh ./scripts/test23.sh
 
-sh ./scripts/test24.sh
+# sh ./scripts/test24.sh
 
-sh ./scripts/test25.sh
+# sh ./scripts/test25.sh
+
+for line in $(ls temp/);
+do
+    cat "temp/$line" >> temp/outputFile.html
+    echo '<br/>' >> temp/outputFile.html
+    echo '<br/>' >> temp/outputFile.html
+    echo '<br/>' >> temp/outputFile.html
+
+done
+
