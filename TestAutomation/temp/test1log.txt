@@ -1,3 +1,12 @@
 Sun Nov 11 18:26:38 EST 2018 Test 1: Starting
 Sun Nov 11 18:26:46 EST 2018: All packages successfully installed or already found in system.
 Sun Nov 11 18:26:50 EST 2018 Test 1: Finished
+Sun Nov 11 18:42:33 EST 2018 Test 1: Starting
+Sun Nov 11 18:42:36 EST 2018: All packages successfully installed or already found in system.
+Sun Nov 11 18:42:39 EST 2018 Test 1: Finished
+Sun Nov 11 18:47:35 EST 2018 Test 1: Starting
+Sun Nov 11 18:47:40 EST 2018: All packages successfully installed or already found in system.
+Sun Nov 11 18:47:40 EST 2018 Test 1: Finished
+Sun Nov 11 18:55:43 EST 2018 Test 1: Starting
+Sun Nov 11 18:55:47 EST 2018: All packages successfully installed or already found in system.
+Sun Nov 11 18:55:47 EST 2018 Test 1: Finished

@@ -1,0 +1,3 @@
+Sun Nov 11 18:56:04 EST 2018 Test 3: Starting
+celestia Found
+Sun Nov 11 19:02:30 EST 2018 Test 3: Finished
