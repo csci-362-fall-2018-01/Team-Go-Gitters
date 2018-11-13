@@ -6,7 +6,7 @@ filepath=$(readlink -f "$filepath")
 
 echo "$(date) Test 2: Starting" >> temp/test2log.txt
 #hardcoded location needs to be changed
-cd ~/Desktop/Celestia/Celestia
+cd Celestia/
 
 autoreconf -v -i
 

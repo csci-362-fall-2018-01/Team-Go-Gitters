@@ -4,7 +4,7 @@ filepath=$(dirname "$f")
 filepath=$(readlink -f "$filepath")
 echo "$(date) Test 3: Starting" >> $filepath/temp/test3log.txt
 
-cd ~/Desktop/Celestia/Celestia
+cd Celestia/
 
 #sudo make -j4
 

@@ -1,3 +1,18 @@
 Mon Nov 12 14:16:14 EST 2018 Test 3: Starting
 celestia Found
 Mon Nov 12 14:16:14 EST 2018 Test 3: Finished
+Tue Nov 13 13:18:48 EST 2018 Test 3: Starting
+celestia not found
+Tue Nov 13 13:18:48 EST 2018 Test 3: Finished
+Tue Nov 13 13:19:43 EST 2018 Test 3: Starting
+celestia not found
+Tue Nov 13 13:19:43 EST 2018 Test 3: Finished
+Tue Nov 13 13:20:17 EST 2018 Test 3: Starting
+celestia not found
+Tue Nov 13 13:20:17 EST 2018 Test 3: Finished
+Tue Nov 13 13:20:53 EST 2018 Test 3: Starting
+celestia Found
+Tue Nov 13 13:20:53 EST 2018 Test 3: Finished
+Tue Nov 13 13:22:18 EST 2018 Test 3: Starting
+celestia Found
+Tue Nov 13 13:22:18 EST 2018 Test 3: Finished
