@@ -13,9 +13,11 @@ parentFilepath=$(dirname "$currFile")
 filepath=$(dirname "$f")
 filepath=$(readlink -f "$filepath")
 
+echo $filepath
+
 echo "$(date) Test 4: Starting" >> $filepath/temp/test4log.txt
 
-returned=$(  (python3 ./scripts/test4.py)   2>&1)
+returned=$(  (python3 ./scripts/test4.py )   2>&1)
 
 echo $returned >> $filepath/temp/test4log.txt
 

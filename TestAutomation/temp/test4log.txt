@@ -1,18 +1,9 @@
-Mon Nov 12 14:16:14 EST 2018 Test 4: Starting
-Python script successfully executed
-Mon Nov 12 14:16:14 EST 2018 Test 4: Finished
-Tue Nov 13 13:18:48 EST 2018 Test 4: Starting
-Python script successfully executed
-Tue Nov 13 13:18:48 EST 2018 Test 4: Finished
-Tue Nov 13 13:19:43 EST 2018 Test 4: Starting
-Python script successfully executed
-Tue Nov 13 13:19:43 EST 2018 Test 4: Finished
-Tue Nov 13 13:20:17 EST 2018 Test 4: Starting
-Python script successfully executed
-Tue Nov 13 13:20:17 EST 2018 Test 4: Finished
-Tue Nov 13 13:20:53 EST 2018 Test 4: Starting
-Python script successfully executed
-Tue Nov 13 13:20:54 EST 2018 Test 4: Finished
-Tue Nov 13 13:22:18 EST 2018 Test 4: Starting
-Python script successfully executed
-Tue Nov 13 13:22:18 EST 2018 Test 4: Finished
+Thu Nov 15 15:59:29 EST 2018 Test 4: Starting
+made to script Traceback (most recent call last): File "./scripts/test4.py", line 18, in <module> main() File "./scripts/test4.py", line 14, in main print(sys.argv[1]) NameError: name 'sys' is not defined
+Thu Nov 15 15:59:29 EST 2018 Test 4: Finished
+Thu Nov 15 16:00:40 EST 2018 Test 4: Starting
+made to script hello Python script successfully executed
+Thu Nov 15 16:00:40 EST 2018 Test 4: Finished
+Thu Nov 15 16:01:52 EST 2018 Test 4: Starting
+made to script Traceback (most recent call last): File "./scripts/test4.py", line 18, in <module> main() File "./scripts/test4.py", line 14, in main print(sys.argv[1]) IndexError: list index out of range
+Thu Nov 15 16:01:53 EST 2018 Test 4: Finished
