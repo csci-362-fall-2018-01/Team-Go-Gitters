@@ -11,7 +11,7 @@ int main() {
 
 	ofstream myfile;
   	myfile.open ("./temp/test3log.txt");
- 	myfile << "TEST 3: TESTING CIRCLE DEG TO RAD FUNCTION<br/>";
+ 	myfile << "TEST 3 - 6: TESTING CIRCLE DEG TO RAD FUNCTION<br/>";
   	myfile << "<br/><br/>";
 
 	myfile << "CASE 1 (720.0) <br/>";

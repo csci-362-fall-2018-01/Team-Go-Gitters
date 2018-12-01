@@ -14,7 +14,7 @@ int main() {
 
 	ofstream myfile;
   	myfile.open ("./temp/test6log.txt");
-  	myfile << "TEST 6: TESTING SQUARE FUNCTION<br/>";
+  	myfile << "TEST 13 - 15: TESTING SQUARE FUNCTION<br/>";
   	myfile << "<br/><br/>";
 
 

@@ -12,7 +12,7 @@ int main() {
 
 	ofstream myfile;
   	myfile.open ("./temp/test7log.txt");
-  	myfile << "TEST 7: TESTING CLAMP FUNCTION<br/>";
+  	myfile << "TEST 16 - 18: TESTING CLAMP FUNCTION<br/>";
   	myfile << "<br/><br/>";
 
 

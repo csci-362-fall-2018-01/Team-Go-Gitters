@@ -12,7 +12,7 @@ int main() {
 
 	ofstream myfile;
   	myfile.open ("./temp/test4log.txt");
-  	myfile << "TEST 4: TESTING CIRCLE AREA FUNCTION<br/>";
+  	myfile << "TEST 7 - 9: TESTING CIRCLE AREA FUNCTION<br/>";
   	myfile << "<br/><br/>";
 
 
