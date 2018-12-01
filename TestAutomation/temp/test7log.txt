@@ -1,19 +1,2 @@
-TEST 7: TESTING CLAMP FUNCTION
-
-
-CASE 1 (-2.0) 
-EXPECTED: 0
-RESULT: 0
-Test passed
-
-CASE 2 (0.0) 
-EXPECTED: 0
-RESULT: 0
-Test passed
-
-CASE 3 (0.5) 
-EXPECTED: 0.5
-RESULT: 0.5
-Test passed
-
-Finished
+TEST 7: TESTING CLAMP FUNCTION<br/><br/><br/>CASE 1 (-2.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (0.5) <br/>EXPECTED: 0.5<br/>RESULT: 0.5<br/>Test passed<br/><br/>Sat Dec  1 16:53:35 EST 2018 Test 7: Finished 
+<br/>

@@ -11,10 +11,10 @@ int main() {
 
 	ofstream myfile;
   	myfile.open ("./temp/test5log.txt");
-  	myfile << "TEST 5: TESTING RAD TO DEGREE FUNCTION\n";
-  	myfile << "\n\n";
+  	myfile << "TEST 5: TESTING RAD TO DEGREE FUNCTION<br/>";
+  	myfile << "<br/><br/>";
 
-	myfile << "CASE 1 (PI) \n";
+	myfile << "CASE 1 (PI) <br/>";
 	float result1;
 	result1 = radToDeg(3.14159265358979323846);
 	float trueResult1;
@@ -26,16 +26,16 @@ int main() {
 		resultString1 = "Test passed";
 	myfile << "EXPECTED: ";
 	myfile << trueResult1;
-	myfile << "\n";
+	myfile << "<br/>";
 	myfile << "RESULT: ";
 	myfile << result1;
-	myfile << "\n";	
+	myfile << "<br/>";	
 	myfile << resultString1;
-  	myfile << "\n\n";
+  	myfile << "<br/><br/>";
 
 
 
-  	myfile << "CASE 2 (0.0) \n";
+  	myfile << "CASE 2 (0.0) <br/>";
 	float result2;
 	result2 = radToDeg(0.0);
 	float trueResult2;
@@ -48,16 +48,16 @@ int main() {
 
 	myfile << "EXPECTED: ";
 	myfile << trueResult2;
-	myfile << "\n";
+	myfile << "<br/>";
 	myfile << "RESULT: ";
 	myfile << result2;
-	myfile << "\n";	
+	myfile << "<br/>";	
 	myfile << resultString2;
-  	myfile << "\n\n";
+  	myfile << "<br/><br/>";
 
 
 
-  	myfile << "CASE 3 (-2 * PI) \n";
+  	myfile << "CASE 3 (-2 * PI) <br/>";
   	float result3;
 	result3 = radToDeg(-2.0 * 3.14159265358979323846);
 	float trueResult3;
@@ -70,18 +70,14 @@ int main() {
 
 	myfile << "EXPECTED: ";
 	myfile << trueResult3;
-	myfile << "\n";
+	myfile << "<br/>";
 	myfile << "RESULT: ";
 	myfile << result3;
-	myfile << "\n";	
+	myfile << "<br/>";	
 	myfile << resultString3;
-  	myfile << "\n\n";
+  	myfile << "<br/><br/>";
 
 
-
-
-
-  myfile << "Finished";
   myfile.close();
    return 0;
 }

@@ -11,10 +11,10 @@ int main() {
 
 	ofstream myfile;
   	myfile.open ("./temp/test3log.txt");
- 	myfile << "TEST 3: TESTING CIRCLE DEG TO RAD FUNCTION\n";
-  	myfile << "\n\n";
+ 	myfile << "TEST 3: TESTING CIRCLE DEG TO RAD FUNCTION<br/>";
+  	myfile << "<br/><br/>";
 
-	myfile << "CASE 1 (720.0) \n";
+	myfile << "CASE 1 (720.0) <br/>";
 	float result1;
 	result1 = degToRad(720.0);
 	float trueResult1;
@@ -27,16 +27,16 @@ int main() {
 
 	myfile << "EXPECTED: ";
 	myfile << trueResult1;
-	myfile << "\n";
+	myfile << "<br/>";
 	myfile << "RESULT: ";
 	myfile << result1;
-	myfile << "\n";	
+	myfile << "<br/>";	
 	myfile << resultString1;
-  	myfile << "\n\n";
+  	myfile << "<br/><br/>";
 
 
 
-  	myfile << "CASE 2 (0.0) \n";
+  	myfile << "CASE 2 (0.0) <br/>";
 	float result2;
 	result2 = degToRad(0.0);
 	float trueResult2;
@@ -49,15 +49,15 @@ int main() {
 
 	myfile << "EXPECTED: ";
 	myfile << trueResult2;
-	myfile << "\n";
+	myfile << "<br/>";
 	myfile << "RESULT: ";
 	myfile << result2;
-	myfile << "\n";	
+	myfile << "<br/>";	
 	myfile << resultString2;
-  	myfile << "\n\n";
+  	myfile << "<br/><br/>";
 
 
-  	myfile << "CASE 3 (-1.0) \n";
+  	myfile << "CASE 3 (-1.0) <br/>";
 	float result3;
 	result3 = degToRad(-180.0);
 	float trueResult3;
@@ -70,16 +70,13 @@ int main() {
 
 	myfile << "EXPECTED: ";
 	myfile << trueResult3;
-	myfile << "\n";
+	myfile << "<br/>";
 	myfile << "RESULT: ";
 	myfile << result3;
-	myfile << "\n";	
+	myfile << "<br/>";	
 	myfile << resultString3;
-  	myfile << "\n\n";
+  	myfile << "<br/><br/>";
 
-
-
-  myfile << "Finished";
   myfile.close();
    return 0;
 }

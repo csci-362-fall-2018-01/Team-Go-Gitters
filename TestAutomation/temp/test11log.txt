@@ -1,19 +1,2 @@
-TEST 11: TESTING PFMOD FUNCTION
-
-
-CASE 1 (10.0 and 5.0) 
-EXPECTED: 0
-RESULT: 0
-Test passed
-
-CASE 2 (1.0, 2.0) 
-EXPECTED: 1
-RESULT: 1
-Test passed
-
-CASE 3 (17.0, 0.0) 
-EXPECTED: nan
-RESULT: -nan
-Test passed
-
-Finished
+TEST 11: TESTING PFMOD FUNCTION<br/><br/><br/>CASE 1 (10.0 and 5.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 2 (1.0, 2.0) <br/>EXPECTED: 1<br/>RESULT: 1<br/>Test passed<br/><br/>CASE 3 (17.0, 0.0) <br/>EXPECTED: nan<br/>RESULT: -nan<br/>Test passed<br/><br/>Sat Dec  1 16:53:35 EST 2018 Test 11: Finished 
+<br/>

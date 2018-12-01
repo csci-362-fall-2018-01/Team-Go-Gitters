@@ -7,6 +7,7 @@ parentFilepath=$(dirname "$currFile")
 #get the grandparent of this script
 filepath=$(dirname "$f")
 filepath=$(readlink -f "$filepath")
+rm -f temp/*
 
 sh ./scripts/test1.sh
 
@@ -58,12 +59,12 @@ sh ./scripts/test5.sh
 
 # sh ./scripts/test25.sh
 
-for line in $(ls temp/);
+for line in $(ls -tr temp/);
 do
     cat "temp/$line" >> temp/outputFile.html
     echo '<br/>' >> temp/outputFile.html
-    echo '<br/>' >> temp/outputFile.html
-    echo '<br/>' >> temp/outputFile.html
 
 done
+
+xdg-open temp/outputFile.html
 
