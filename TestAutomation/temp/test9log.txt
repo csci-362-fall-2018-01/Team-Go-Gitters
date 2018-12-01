@@ -1,0 +1,19 @@
+TEST 9: TESTING SIGN FUNCTION
+
+
+CASE 1 (-2.0) 
+EXPECTED: -1
+RESULT: -1
+Test passed
+
+CASE 2 (0.0) 
+EXPECTED: 0
+RESULT: 0
+Test passed
+
+CASE 3 (5.5) 
+EXPECTED: 1
+RESULT: 1
+Test passed
+
+Finished

@@ -1,0 +1,19 @@
+TEST 10: TESTING SPHERE SURFACE AREA FUNCTION
+
+
+CASE 1 (10.0) 
+EXPECTED: 1256.64
+RESULT: 1256.64
+Test passed
+
+CASE 2 (0.0) 
+EXPECTED: 0
+RESULT: 0
+Test passed
+
+CASE 3 (-5.0) 
+EXPECTED: Error
+RESULT: 314.159
+Test failed
+
+Finished

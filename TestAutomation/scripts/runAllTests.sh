@@ -18,17 +18,17 @@ sh ./scripts/test4.sh
 
 sh ./scripts/test5.sh
 
-# sh ./scripts/test6.sh
+ sh ./scripts/test6.sh
 
-# sh ./scripts/test7.sh
+ sh ./scripts/test7.sh
 
-# sh ./scripts/test8.sh
+ sh ./scripts/test8.sh
 
-# sh ./scripts/test9.sh
+ sh ./scripts/test9.sh
 
-# sh ./scripts/test10.sh
+ sh ./scripts/test10.sh
 
-# sh ./scripts/test11.sh
+ sh ./scripts/test11.sh
 
 # sh ./scripts/test12.sh
 

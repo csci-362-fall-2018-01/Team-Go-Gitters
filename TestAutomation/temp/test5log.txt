@@ -1,0 +1,19 @@
+TEST 5: TESTING RAD TO DEGREE FUNCTION
+
+
+CASE 1 (PI) 
+EXPECTED: 180
+RESULT: 180
+Test passed
+
+CASE 2 (0.0) 
+EXPECTED: 0
+RESULT: 0
+Test passed
+
+CASE 3 (-2 * PI) 
+EXPECTED: -360
+RESULT: -360
+Test passed
+
+Finished

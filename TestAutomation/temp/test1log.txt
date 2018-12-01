@@ -1,0 +1,6 @@
+Sat Dec  1 11:46:37 EST 2018 Test 1: Starting
+Sat Dec  1 11:46:41 EST 2018: All packages successfully installed or already found in system.
+Sat Dec  1 11:46:41 EST 2018 Test 1: Finished 
+Sat Dec  1 11:49:28 EST 2018 Test 1: Starting
+Sat Dec  1 11:49:31 EST 2018: All packages successfully installed or already found in system.
+Sat Dec  1 11:49:31 EST 2018 Test 1: Finished 
