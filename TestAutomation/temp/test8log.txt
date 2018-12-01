@@ -1,2 +1,2 @@
-TEST 19 - 21: TESTING CUBE FUNCTION<br/><br/><br/>CASE 1 (-2.0) <br/>EXPECTED: -8<br/>RESULT: -8<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (10.5) <br/>EXPECTED: 1157.62<br/>RESULT: 1157.62<br/>Test passed<br/><br/>Sat Dec  1 17:09:58 EST 2018 Test 8: Finished 
+TEST 19 - 21: TESTING CUBE FUNCTION<br/><br/><br/>CASE 1 (-2.0) <br/>EXPECTED: -8<br/>RESULT: -8<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (10.5) <br/>EXPECTED: 1157.62<br/>RESULT: 1157.62<br/>Test passed<br/><br/>Sat Dec  1 16:19:50 EST 2018 Test 8: Finished 
 <br/>

@@ -1,6 +1,7 @@
-Sat Dec  1 17:09:30 EST 2018 Test 1: Starting
+<div><h3>TEST 1</h3>
+Sat Dec  1 16:19:43 EST 2018 Test 1: Starting
 <br/>
-Sat Dec  1 17:09:36 EST 2018: All packages successfully installed or already found in system.
+Sat Dec  1 16:19:49 EST 2018: All packages successfully installed or already found in system.
 <br/>
-Sat Dec  1 17:09:36 EST 2018 Test 1: Finished 
-<br/>
+Sat Dec  1 16:19:49 EST 2018 Test 1: Finished 
+<br/></div>

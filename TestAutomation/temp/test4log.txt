@@ -1,2 +1,2 @@
-TEST 7 - 9: TESTING CIRCLE AREA FUNCTION<br/><br/><br/>CASE 1 (6.0) <br/>EXPECTED: 113.097<br/>RESULT: 113.097<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (-1.0) <br/>EXPECTED: Error<br/>RESULT: 3.14159<br/>Test failed<br/><br/>Sat Dec  1 17:09:56 EST 2018 Test 4: Finished 
+TEST 7 - 9: TESTING CIRCLE AREA FUNCTION<br/><br/><br/>CASE 1 (6.0) <br/>EXPECTED: 113.097<br/>RESULT: 113.097<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (-1.0) <br/>EXPECTED: Error<br/>RESULT: 3.14159<br/>Test failed<br/><br/>Sat Dec  1 16:19:50 EST 2018 Test 4: Finished 
 <br/>

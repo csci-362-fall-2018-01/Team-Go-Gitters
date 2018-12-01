@@ -1,2 +1,2 @@
-TEST 13 - 15: TESTING SQUARE FUNCTION<br/><br/><br/>CASE 1 (-1.0) <br/>EXPECTED: 1<br/>RESULT: 1<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (53.0) <br/>EXPECTED: 2809<br/>RESULT: 2809<br/>Test passed<br/><br/>Sat Dec  1 17:09:57 EST 2018 Test 6: Finished 
+TEST 13 - 15: TESTING SQUARE FUNCTION<br/><br/><br/>CASE 1 (-1.0) <br/>EXPECTED: 1<br/>RESULT: 1<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (53.0) <br/>EXPECTED: 2809<br/>RESULT: 2809<br/>Test passed<br/><br/>Sat Dec  1 16:19:50 EST 2018 Test 6: Finished 
 <br/>

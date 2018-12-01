@@ -1,2 +1,2 @@
-TEST 25 - 27: TESTING SPHERE SURFACE AREA FUNCTION<br/><br/><br/>CASE 1 (10.0) <br/>EXPECTED: 1256.64<br/>RESULT: 1256.64<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (-5.0) <br/>EXPECTED: Error<br/>RESULT: 314.159<br/>Test failed<br/><br/>Sat Dec  1 17:09:58 EST 2018 Test 10: Finished 
+TEST 25 - 27: TESTING SPHERE SURFACE AREA FUNCTION<br/><br/><br/>CASE 1 (10.0) <br/>EXPECTED: 1256.64<br/>RESULT: 1256.64<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (-5.0) <br/>EXPECTED: Error<br/>RESULT: 314.159<br/>Test failed<br/><br/>Sat Dec  1 16:19:50 EST 2018 Test 10: Finished 
 <br/>

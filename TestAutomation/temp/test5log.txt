@@ -1,2 +1,2 @@
-TEST 10 - 12: TESTING RAD TO DEGREE FUNCTION<br/><br/><br/>CASE 1 (PI) <br/>EXPECTED: 180<br/>RESULT: 180<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (-2 * PI) <br/>EXPECTED: -360<br/>RESULT: -360<br/>Test passed<br/><br/>Sat Dec  1 17:09:57 EST 2018 Test5: Finished 
+TEST 10 - 12: TESTING RAD TO DEGREE FUNCTION<br/><br/><br/>CASE 1 (PI) <br/>EXPECTED: 180<br/>RESULT: 180<br/>Test passed<br/><br/>CASE 2 (0.0) <br/>EXPECTED: 0<br/>RESULT: 0<br/>Test passed<br/><br/>CASE 3 (-2 * PI) <br/>EXPECTED: -360<br/>RESULT: -360<br/>Test passed<br/><br/>Sat Dec  1 16:19:50 EST 2018 Test5: Finished 
 <br/>

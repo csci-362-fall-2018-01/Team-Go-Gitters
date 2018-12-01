@@ -3,7 +3,7 @@
 filepath=$(dirname "$f")
 filepath=$(readlink -f "$filepath")
 
-
+echo "<div><h3>TEST 2</h3>" >> temp/test2log.txt
 echo "$(date) Test 2: Starting" >> temp/test2log.txt
 echo "<br/>" >> temp/test2log.txt
 cd Celestia/
@@ -22,7 +22,7 @@ else
 fi
 
 echo "$(date) Test 2: Finished" >> $filepath/temp/test2log.txt
-echo "<br/>" >> $filepath/temp/test2log.txt
+echo "<br/></div>" >> $filepath/temp/test2log.txt
 
 
 cd ..
