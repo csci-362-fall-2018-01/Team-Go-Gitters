@@ -15,7 +15,7 @@ int main() {
 
 
 	myfile << "<div>";
-		myfile << "<b>CASE 1 (PI)</b><br/>";
+		myfile << "<b>TEST 9 (PI)</b><br/>";
 		float result1;
 		result1 = radToDeg(3.14159265358979323846);
 		float trueResult1;
@@ -37,7 +37,7 @@ int main() {
 
 
 	myfile << "<div>";
-	  myfile << "<b>CASE 2 (0.0)</b><br/>";
+	  myfile << "<b>TEST 10 (0.0)</b><br/>";
 		float result2;
 		result2 = radToDeg(0.0);
 		float trueResult2;
@@ -58,7 +58,7 @@ int main() {
   myfile << "</div>";
 
   myfile << "<div>";
-	  myfile << "<b>CASE 3 (-2 * PI)</b><br/>";
+	  myfile << "<b>TEST 11 (-2 * PI)</b><br/>";
 	  float result3;
 		result3 = radToDeg(-2.0 * 3.14159265358979323846);
 		float trueResult3;

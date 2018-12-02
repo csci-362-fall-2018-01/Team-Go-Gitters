@@ -16,7 +16,7 @@ int main() {
 
 
   myfile << "<div>";
-	  myfile << "<b>CASE 1 (-2.0)</b><br/>";
+	  myfile << "<b>TEST 15 (-2.0)</b><br/>";
 		float result1;
 		result1 = clamp(-2.0);
 		float trueResult1;
@@ -38,7 +38,7 @@ int main() {
 
 
   myfile << "<div>";
-	  myfile << "<b>CASE 2 (0.0)</b><br/>";
+	  myfile << "<b>TEST 16 (0.0)</b><br/>";
 		float result2;
 		result2 = clamp(0.0);
 		float trueResult2;
@@ -60,7 +60,7 @@ int main() {
 
 
   myfile << "<div>";
-	  myfile << "<b>CASE 3 (0.5)</b><br/>";
+	  myfile << "<b>TEST 17 (0.5)</b><br/>";
 	  float result3;
 		result3 = clamp(0.5);
 		float trueResult3;

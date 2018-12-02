@@ -16,7 +16,7 @@ int main() {
 
 
 	myfile << "<div>";
-		myfile << "<b>CASE 1 (10.0)</b><br/>";
+		myfile << "<b>TEST 24 (10.0)</b><br/>";
 		float result1;
 		result1 = sphereArea(10.0);
 		float trueResult1;
@@ -38,7 +38,7 @@ int main() {
 
 
 	myfile << "<div>";
-	  myfile << "<b>CASE 2 (0.0)</b><br/>";
+	  myfile << "<b>TEST 25 (0.0)</b><br/>";
 		float result2;
 		result2 = sphereArea(0.0);
 		float trueResult2;
@@ -60,7 +60,7 @@ int main() {
 
 
 	myfile << "<div>";
-	  myfile << "<b>CASE 3 (-5.0)</b><br/>";
+	  myfile << "<b>TEST 26 (-5.0)</b><br/>";
 	  float result3;
 		result3 = sphereArea(-5.0);
 		float trueResult3;

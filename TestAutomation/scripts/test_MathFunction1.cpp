@@ -15,7 +15,7 @@ int main() {
 
 
   myfile << "<div>";
-		myfile << "<b>CASE 1 (720.0)</b><br/>";
+		myfile << "<b>TEST 3 (720.0)</b><br/>";
 		float result1;
 		result1 = degToRad(720.0);
 		float trueResult1;
@@ -37,7 +37,7 @@ int main() {
 
 
 	myfile << "<div>";
-	  myfile << "<b>CASE 2 (0.0)</b><br/>";
+	  myfile << "<b>TEST 4 (0.0)</b><br/>";
 		float result2;
 		result2 = degToRad(0.0);
 		float trueResult2;
@@ -59,7 +59,7 @@ int main() {
 
 
 	myfile << "<div>";
-	  myfile << "<b>CASE 3 (-1.0)</b><br/>";
+	  myfile << "<b>TEST 5 (-1.0)</b><br/>";
 		float result3;
 		result3 = degToRad(-180.0);
 		float trueResult3;
