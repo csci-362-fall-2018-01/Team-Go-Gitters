@@ -6,6 +6,5 @@ echo "<br/>" >> temp/test10log.txt
 
 sudo make ./scripts/test_MathFunction8
 sudo ./scripts/test_MathFunction8
-echo "$(date) Test 10: Finished $(\n)" >> temp/test10log.txt
 echo "<br/>" >> temp/test10log.txt
 
