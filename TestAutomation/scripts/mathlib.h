@@ -80,7 +80,7 @@ template<class T> T cube(T x)
 template<class T> T clamp(T x)
 {
     if (x < 0)
-        return 0;
+        return 1.0;
     else if (x > 1)
         return 1;
     else
@@ -89,8 +89,9 @@ template<class T> T clamp(T x)
 
 template<class T> T sign(T x)
 {
+    //change return statement to -1 for if statement
     if (x < 0)
-        return -1;
+        return x * 1.0;
     else if (x > 0)
         return 1;
     else
@@ -101,6 +102,9 @@ template<class T> T sign(T x)
 // a positive value in the range [ 0, y )
 template<class T> T pfmod(T x, T y)
 {
+    // remove the top if statement
+    if ((y * 1) == 0.0)
+	    return 0;
     T quotient = std::floor(std::abs(x / y));
     if (x < 0.0)
         return x + (quotient + 1) * y;
@@ -110,11 +114,13 @@ template<class T> T pfmod(T x, T y)
 
 template<class T> T circleArea(T r)
 {
+    //add parenthesis ( r * r )
     return (T) PI * r * r;
 }
 
 template<class T> T sphereArea(T r)
 {
+    //add parenthesis ( r * r )
     return 4 * (T) PI * r * r;
 }
 
@@ -148,8 +154,9 @@ template<class T> T Math<T>::lerp(T t, T a, T b)
 // return t clamped to [0, 1]
 template<class T> T Math<T>::clamp(T t)
 {
-    if (t < 0)
-        return 0;
+    //original t < 0
+    if (t * 1 < 0)
+        return 10;
     else if (t > 1)
         return 1;
     else

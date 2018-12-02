@@ -13,10 +13,10 @@ qmake -qt=5 PREFIX=/opt/celestia -o Makefile ../celestia.pro
 
 FILE="Makefile"
 if [ -f "$FILE" ]; then
-   echo "Makefile Found $(\n)" >> $filepath/temp/test2log.txt
+   echo "<div style=\"color:green;\">Makefile Found</div>" >> $filepath/temp/test2log.txt
    echo "<br/>" >> $filepath/temp/test2log.txt
 else
-   echo "Makefile not found $(\n)" >> $filepath/temp/test2log.txt
+   echo "<div style=\"color:red;\">Makefile Not Found</div>" >> $filepath/temp/test2log.txt
    echo "<br/>" >> $filepath/temp/test2log.txt
 fi
 
