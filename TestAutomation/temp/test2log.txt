@@ -1,7 +1,7 @@
 <div><h3>TEST 2</h3>
-Sun Dec  2 12:43:59 EST 2018 Test 2: Starting
+Sun Dec  2 13:43:55 EST 2018 Test 2: Starting
 <br/>
-Makefile Found 
+Makefile not found 
 <br/>
-Sun Dec  2 12:44:20 EST 2018 Test 2: Finished
+Sun Dec  2 13:43:55 EST 2018 Test 2: Finished
 <br/></div>
