@@ -16,7 +16,7 @@ int main() {
 
 
 	myfile << "<div>";
-		myfile << "TEST 27 (10.0 and 5.0) <br/>";
+		myfile << "<b>TEST 27 (10.0 and 5.0)</b><br/>";
 		float result1;
 		result1 = pfmod(10.0, 5.0);
 		float trueResult1;
@@ -38,7 +38,7 @@ int main() {
 
 
 	myfile << "<div>";
-	  myfile << "TEST 28 (1.0, 2.0) <br/>";
+	  myfile << "<b>TEST 28 (1.0, 2.0)</b><br/>";
 		float result2;
 		result2 = pfmod(1.0, 2.0);
 		float trueResult2;
@@ -60,7 +60,7 @@ int main() {
 
 
 	myfile << "<div>";
-	  myfile << "TEST 29 (17.0, 0.0) <br/>";
+	  myfile << "<b>TEST 29 (17.0, 0.0)</b><br/>";
 	  float result3;
 		result3 = pfmod(17.0, 0.0);
 		float trueResult3;
