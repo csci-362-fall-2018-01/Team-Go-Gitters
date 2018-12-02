@@ -1,0 +1,4 @@
+[submodule "TestAutomation/Celestia"]
+	path = TestAutomation/Celestia
+	url = https://github.com/CelestiaProject/Celestia.git
+	branch = master
