@@ -8,9 +8,8 @@ echo "$(date) Test 2: Starting" >> temp/test2log.txt
 echo "<br/>" >> temp/test2log.txt
 cd Celestia/
 
-autoreconf -v -i
-
-sudo ./configure --with-lua=windows/inc/lua --with-gtk
+mkdir build && cd build
+qmake -qt=5 PREFIX=/opt/celestia -o Makefile ../celestia.pro
 
 FILE="Makefile"
 if [ -f "$FILE" ]; then
@@ -25,4 +24,4 @@ echo "$(date) Test 2: Finished" >> $filepath/temp/test2log.txt
 echo "<br/></div>" >> $filepath/temp/test2log.txt
 
 
-cd ..
+cd ../..
